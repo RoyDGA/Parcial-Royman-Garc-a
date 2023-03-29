@@ -34,9 +34,12 @@ else:
 print('___________________________________________________________________')
 if promColeNoOf > promColeOf:
     mejor_resultado = (promColeNoOf, 'No Oficial')
+    print(mejor_resultado)
+
     
 else:
     mejor_resultado = (promColeOf, 'Oficial')
+    print(mejor_resultado)
 print('___________________________________________________________________')
 dicData = {
     'performance_math': performance_math,
